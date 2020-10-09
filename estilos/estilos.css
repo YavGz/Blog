@@ -62,27 +62,29 @@ nav .profile-link a {
   border-bottom: 1px solid #000;
 }
 /* ------------------- main section  */
-.main-container{
-  margin: 0 ;
-  color: #fff;
-  height: 100vh;
-  width: 100vw;
+.home-main{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 100%;
+  height: 80vh;
   background-image: url('../recursos/Imágenes/Cover.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
-.main-container h1{
-  width: 380px;
-  height: 100px;
-  margin: 70px auto;
-  /* margin-bottom: 10px; */
-  text-align: center;
-  font-size: 35px;
+.home-main section{
+  display: grid;
+  grid-column: 2;
+  justify-items: center;
+  height: 350px;
+  margin-top: 80px;
 }
-.main-container button{
-  display: flex;
-  justify-self: center;
-  margin: 0 auto;
+.home-main-title{
+  letter-spacing: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.home-main .main-button{
   padding: 13px 18px;
   font-weight: 700;
   font-size: 20px;
