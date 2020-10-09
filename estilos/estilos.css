@@ -1,3 +1,4 @@
+/* ---------- restart de estilos  */
 body {
   padding: 0%;
   margin: 0%;
@@ -12,6 +13,7 @@ a {
   display: inline;
   color: #000;
 }
+/* ---------------------  header  */
 header{
   width: 100%;
   height: 140px;
@@ -25,7 +27,7 @@ header{
   background-color: #47cfac;
 }
 .header-icons-container .icons{
-  width: 300px;
+  width: 250px;
   height: auto;
   display: flex;
   justify-items: flex-end;
@@ -33,4 +35,29 @@ header{
   justify-content: space-between;
   justify-self: end;
   margin-right: 50px;
+}
+header .icons span{
+  color: #fff;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+nav .nav-logo-container{
+  margin-left: 50px;
+}
+nav .nav-logo-container  img{
+  width: 220px;
+  margin-top: 10px;
+}
+nav .profile-link{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+nav .profile-link a {
+  color: #000;
+  border-bottom: 1px solid #000;
 }
