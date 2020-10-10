@@ -7,6 +7,7 @@ body {
   bottom: 0%;
   left: 0;
   right: 0;
+  font-family: 'Roboto' , sans-serif ;
 }
 a {
   text-decoration: none;
@@ -80,8 +81,9 @@ nav .profile-link a {
   margin-top: 80px;
 }
 .home-main-title{
+  font-family: 'Roboto Mono', monospace;
   letter-spacing: 10px;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
   color: #fff;
