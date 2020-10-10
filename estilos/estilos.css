@@ -69,6 +69,7 @@ nav .profile-link a {
   height: 80vh;
   background-image: url('../recursos/Imágenes/Cover.png');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 .home-main section{
@@ -80,9 +81,10 @@ nav .profile-link a {
 }
 .home-main-title{
   letter-spacing: 10px;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
   text-align: center;
+  color: #fff;
 }
 .home-main .main-button{
   padding: 13px 18px;
