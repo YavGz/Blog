@@ -121,6 +121,49 @@ footer .footer-container{
   margin-top: 50px;
   border: 1px solid #47cfac;
 }
+/*------------------------- blogs  */
+.division-blogpost-section{
+  font-size: 35px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 3px solid #e6e9ed;
+  width: 87.5%;
+}
+.blog-article-container{
+  width: auto;
+  display: grid;
+  grid-template: 1fr 1fr / repeat(3, 1fr);
+  /* padding-left: 5%; */
+  /* padding-right: 72px; */
+  padding: 0% 5% 3%;
+  grid-gap: 50px;
+}
+.blog-article-image-container{
+  width: 100%;
+}
+.blog-article-image{
+  width: 100%;
+}
+.blog-article-content{
+  padding: 0;
+  padding-top: 0;
+}
+.blog-article-content h3{
+  font-size: 30px;
+  margin: 15px 0;
+}
+.blog-article-content p{
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.blog-article-content a{
+  border: 2.25px solid #47cfac;
+  padding: 2% 5%;
+  cursor: pointer;
+}
 
 /* ----------------------- footer  */
 footer .pre-footer{
