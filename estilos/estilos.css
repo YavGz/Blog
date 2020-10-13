@@ -1,5 +1,10 @@
 /* ---------- restart de estilos  */
-body {
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Roboto Mono', monospace;
+}
+.main-body-sticky {
   padding: 0%;
   margin: 0%;
   position: fixed;
@@ -123,4 +128,70 @@ footer .pre-footer{
   text-align: center;
   color: #fff;
   background-color: black;
+}
+
+/* ---------------- principal blog  */
+.blog-image-container{
+  width: 70%;
+  margin: 2% auto;
+}
+.blog-image-container img{
+  width: 100%;
+}
+.blogpost-article-container{
+  display: grid;
+  width: 50%;
+  grid-template-columns: 1fr;
+  margin: 0% auto;
+  justify-self: center;
+}
+.blogpost-article-container h3{
+  border-bottom: 1px solid #c2c2c2;
+  font-size: 25px;
+}
+.blogpost-article-container h1{
+  font-size: 45px;
+  margin: 0 0 1%;
+}
+.blogpost-article-container p{
+  font-size: 20px;
+}
+/* ----------------- contact  */
+.contact-section-container{
+  display: grid;
+  width: auto;
+  /* padding: 5% 5%; */
+  margin-top: 4%;
+  grid-template-columns: 1fr 1fr;
+  background-color: #c2c2c2;
+  padding: 3% 4%;
+}
+.contact-container{
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding-right: 2%;
+}
+.contact-image-container{
+  width: 40%;
+}
+.contact-image-container img{
+  width: 100%;
+}
+.contact-content{
+  width: auto;
+  margin-left: 30px;
+  margin-bottom: 0;
+  align-self: flex-end;
+}
+.contact-content a{
+  font-size: 25px;
+  font-weight: 500;
+}
+.contact-content a:hover{
+  text-decoration: underline;
+}
+.contact-content p{
+  margin-bottom: 0;
+  font-size: 20px;
 }
