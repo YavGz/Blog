@@ -113,14 +113,14 @@ footer .footer-container{
 }
 .principal-blog-text{
   font-size: 20px;
+  margin-bottom: 50px;
 }
-.main-article-button{
-  font-size: inherit;
-  width: 80px;
-  padding: 10px 15px;
-  margin-top: 50px;
-  border: 1px solid #47cfac;
+.article-button{
+  padding: 2% 5%;
+  border: 2.5px solid #47cfac;
+  cursor: pointer;
 }
+
 /*------------------------- blogs  */
 .division-blogpost-section{
   font-size: 35px;
@@ -158,11 +158,6 @@ footer .footer-container{
   font-size: 20px;
   font-family: 'Roboto';
   font-weight: 400;
-}
-.blog-article-content a{
-  border: 2.25px solid #47cfac;
-  padding: 2% 5%;
-  cursor: pointer;
 }
 
 /* ----------------------- footer  */
