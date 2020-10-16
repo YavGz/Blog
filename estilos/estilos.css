@@ -163,7 +163,8 @@ footer .pre-footer{
   /* padding: 5% 5%; */
   margin-top: 4%;
   grid-template-columns: 1fr 1fr;
-  background-color: #c2c2c2;
+  background-color: #e6e9ed
+  ;
   padding: 3% 4%;
 }
 .contact-container{
@@ -195,3 +196,21 @@ footer .pre-footer{
   margin-bottom: 0;
   font-size: 20px;
 }
+ /* ---------- profile section  */
+ main {
+   background-color: #e6e9ed
+   ;
+ }
+ .profile-image-container{
+   display: flex;
+   width: 400px;
+   margin: 0%;
+ }
+ .profile-content{
+   display: flex;
+   width: 500px;
+ }
+ .profile-image-container img{
+   width: 400px;
+   margin: 0%;
+ }
