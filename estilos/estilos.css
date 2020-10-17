@@ -205,23 +205,39 @@ footer .pre-footer{
    /* justify-content: space-around; */
   padding: 2%;
  }
- .profile-image-container{
+ .profile-image-container {
    width: 500px;
-   margin-left: 5%;
+   margin-left: 4%;
  }
- .profile-image-container img{
+ .profile-image-container img {
    width: 500px;
    margin: 0%;
  }
- .profile-content{
+ .profile-content {
    width: 55%;
    margin: 0 auto;
  }
- .profile-content h2{
+ .profile-content h2 {
   font-size: 45px;
   margin: 0%;
  }
- .profile-content p{
+ .profile-content p {
    font-size: 22px;
  }
  /* ------------- project section  */
+.div-project {
+  max-width: 90%;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  border-bottom: 1px solid #c2c2c2;
+  padding-bottom: 20px;
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 90%;
+  margin: 0 auto;
+  grid-gap: 5%;
+}
